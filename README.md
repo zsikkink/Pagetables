@@ -46,9 +46,9 @@ int main() {
 
 ## Limitations and Future Work
 
--The current implementation does not support page deallocation or freeing of memory.
-The Library does not handle concurrent access to the page table. Synchronization mechanisms should be added for multi-threaded environments.
-The performance of the library can be improved b implementing optimizations such as translation lookaside buffers (TLBs).
+- The current implementation does not support page deallocation or freeing of memory.
+- The Library does not handle concurrent access to the page table. Synchronization mechanisms should be added for multi-threaded environments.
+- The performance of the library can be improved b implementing optimizations such as translation lookaside buffers (TLBs).
 
 
 
